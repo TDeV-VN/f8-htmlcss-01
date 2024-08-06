@@ -119,8 +119,9 @@ a {
   font-size: 1.4rem;
 }
 
-.hero {
-  padding-top: calc(130px - var(--nav-padding));
+.hero-wrap {
+  display: flex;
+  align-items: center;
 }
 
 .hero .info {
